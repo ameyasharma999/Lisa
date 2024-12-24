@@ -22,4 +22,4 @@ Lisa
 16. Open it in Blender and go to the scripting tab
 17. Open blender.py in it
 18. Select the model in the viewport CC_Base_Body
-19: Run the script    
+19. Run the script    

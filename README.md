@@ -16,3 +16,10 @@ Lisa
 10. Start Server
 11. Get a reference voice in PATH / PATHS (mp3) - Line 217
 12. RUN talk.py
+13. Follow along to set up the frontend
+14. Download and install Blender
+15. Download this model
+16. Open it in Blender and go to the scripting tab
+17. Open blender.py in it
+18. Select the model in the viewport CC_Base_Body
+19: Run the script    

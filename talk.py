@@ -45,6 +45,8 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 output_dir = 'outputs'
 output_dir1 = 'outputs1'
 os.makedirs(output_dir, exist_ok=True)
+os.makedirs(output_dir1, exist_ok=True)
+
 
 # Load models
 en_base_speaker_tts = BaseSpeakerTTS(f'{en_ckpt_base}/config.json', device="cuda" if torch.cuda.is_available() else "cpu")

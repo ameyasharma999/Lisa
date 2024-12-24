@@ -366,7 +366,7 @@ def listen_for_wake_word():
             audio = recognizer.listen(source)
             try:
                 text = recognizer.recognize_google(audio).lower()
-                if "hey computer" in text:
+                if "hey lisa" in text:
                     logger.info("Wake word detected! Starting conversation.")
                     user_chatbot_conversation()
             except sr.UnknownValueError:
